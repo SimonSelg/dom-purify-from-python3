@@ -1,5 +1,9 @@
 # Purifying HTML in Python3
 
+This shows how to use the npm library [DOMPurify](https://github.com/cure53/DOMPurify) from python3 to sanitize HTML
+
+
+## Usage
 - build the javascript part using `yarn build`
 - now you can run `dist/main.js` file (which has no dependecies) with node
   - it accepts HTML as input stream and outputs the cleaned HTML
